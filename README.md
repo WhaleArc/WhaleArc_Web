@@ -183,12 +183,15 @@ RSI, MACD, MA, Bollinger Bands 등 기술적 지표를 활용한 전략을 생�
 
 ---
 
-## 9. 저장소 구조
+## 9. 저장소 구조 (팀 프로젝트)
 
 | 폴더 | 설명 |
 |------|------|
-| **[web/](./web/)** | 웹 서비스 (프론트엔드 + 백엔드) |
+| **[web/](./web/)** | **WhaleArc 웹 서비스** — 지금 만든 프론트엔드 + 백엔드 (모의 투자 플랫폼) |
 | **[app/](./app/)** | 모바일 앱 (추후 개발 예정) |
+
+- 웹 개발: `web/frontend`, `web/backend` 에서 작업
+- 앱 개발: 나중에 `app/` 안에 프로젝트 추가
 
 팀(Organization) 설정·친구 초대 방법은 [GIT_TEAM_SETUP.md](./GIT_TEAM_SETUP.md)를 참고하세요.
 
