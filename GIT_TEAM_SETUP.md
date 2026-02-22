@@ -103,3 +103,17 @@ git clone git@github.com:YOUR_ORG_NAME/WhaleArc.git
 - **앱**: 나중에 `app/` 안에 모바일 프로젝트 추가
 
 필요하면 `web/README.md`, `app/README.md`에 각각 실행 방법·개발 규칙을 적어 두면 됩니다.
+
+---
+
+## 5. 팀만 보는 문서 (외부에 안 보이게)
+
+다음 경로는 **`.gitignore`에 있어서 GitHub에 올라가지 않습니다.** 팀원만 로컬에서 볼 수 있습니다.
+
+| 경로 | 용도 |
+|------|------|
+| **INTERNAL_README.md** | 팀 내부용 메모, 회의록, 규칙 등 |
+| **docs/** 폴더 | 비공개 문서 모음 |
+| **\*.internal.md** | 이름이 `.internal.md`로 끝나는 마크다운 파일 |
+
+이 파일/폴더에 적은 내용은 push 해도 원격에 올라가지 않으므로 외부에 노출되지 않습니다.

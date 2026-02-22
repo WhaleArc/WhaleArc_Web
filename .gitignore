@@ -36,6 +36,12 @@ out/
 ### VS Code ###
 .vscode/
 
-### Documentation (Private) ###
-# docs 폴더 전체를 비공개로 유지 (포트폴리오/개발 가이드 문서)
+### Documentation (Private) - 팀만 보는 문서 (GitHub에 올라가지 않음) ###
 docs/
+INTERNAL_README.md
+README_INTERNAL.md
+*.internal.md
+
+# 분리된 웹/앱 레포 (별도 푸시용)
+WhaleArc_Web/
+WhaleArc_App/
